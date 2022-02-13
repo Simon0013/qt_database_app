@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RatingWindow</class>
+ <widget class="QWidget" name="RatingWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1129</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>147</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Показать лидеров продаж:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="yearChooseBox">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>9</y>
+     <width>211</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="descOrderBox">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>38</y>
+     <width>222</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Сортировать в порядке возрастания</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>65</y>
+     <width>1111</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::NoEditTriggers</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>288</x>
+     <y>37</y>
+     <width>258</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выберете количество первых мест для показа:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="countTopBox">
+   <property name="geometry">
+    <rect>
+     <x>568</x>
+     <y>37</y>
+     <width>69</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
